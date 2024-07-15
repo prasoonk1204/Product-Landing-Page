@@ -192,6 +192,9 @@ p{
 }
 
 @media (max-width: 675px) {
+    body{ 
+text-align: center;
+}
     .head{
         width: 100%;
         height: 200px;
@@ -201,7 +204,7 @@ p{
         justify-content: space-around;
         align-items: center;
         font-family: Montserrat;
-        font-size: 2em;
+        font-size: 1em;
     }
     .logo {
         order:0;
@@ -211,15 +214,15 @@ p{
     .navbar{
         order:2;
         width: 100%;
+        font-size: smaller;
     }
     .login{
         height: 50px;
         width: 120px;
-        font-size: 1em;
     }
     #item1 , #item2 , #item3 , #item4 {
         height: fit-content;
-        width:70%;
+        width:80%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -242,19 +245,19 @@ p{
         padding-bottom: 20px;
     }
     h2{
-        font-size: 2.25em;
+        font-size: 1em;
     }
     p{
-        font-size: 1.75em;
+        font-size: 1em;
     }
     .button{
-        font-size: 1.75em;
+        font-size: 1em;
     }
     .foot{
-        font-size: x-large;
+        font-size: large;
     }
     .hh{
-        font-size: 2em;
+        font-size: 1.25em;
     }
 }
 
